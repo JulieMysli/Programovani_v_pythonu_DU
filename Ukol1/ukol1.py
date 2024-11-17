@@ -5,6 +5,9 @@ class Locality:
         self.name = name
         self.locality_coefficient = locality_coefficient
 
+    def __str__(self):
+        return f"Locality: {self.name}, Koeficient: {self.locality_coefficient}"
+
 class Property:
     def __init__(self, locality):
         self.locality = locality
@@ -66,24 +69,11 @@ print(agricultural_land)
 print(house)
 print(office)
 
+print(locality_manetin)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Komentář od koučky Kristýny
 
 # # print(locality_manetin) 
 
